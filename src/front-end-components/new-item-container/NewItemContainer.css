@@ -1,5 +1,4 @@
 .new-item-container{
-    border: 1px solid black;
 }
 
 .form-grid{
@@ -14,7 +13,6 @@
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 2;
-    border: 2px solid black;
 }
 
 .note-title-input{
@@ -23,7 +21,6 @@
     grid-row-end: 2;
     grid-column-start: 2;
     grid-column-end: 5;
-    border: 2px solid black;
 }
 
 .body-textarea{
@@ -32,6 +29,8 @@
     grid-row-start: 2;
     grid-row-end: 3;
     font-size: 1.8rem;
+    height: 18rem;
+    resize: none;
 }
 
 .save-btn{
@@ -39,6 +38,7 @@
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 4;
+    font-size: 1.2rem;
 }
 
 .clear-btn{
@@ -46,4 +46,5 @@
     grid-column-end: 5;
     grid-row-start: 3;
     grid-row-end: 4;
+    font-size: 1.2rem;
 }

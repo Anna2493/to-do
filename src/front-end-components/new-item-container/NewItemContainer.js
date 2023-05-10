@@ -9,8 +9,8 @@ function NewItemContainer(){
                 
                 <textarea className='body-textarea' />
                 
-                <button className='save-btn' >Save</button>
-                <button className='clear-btn' >Clear</button>
+                <button className='save-btn'>Save</button>
+                <button className='clear-btn'>Clear</button>
   
             </form>
         </div>
